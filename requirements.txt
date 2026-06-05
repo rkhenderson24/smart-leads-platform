@@ -1,0 +1,13 @@
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0
+scikit-learn>=1.3
+scipy>=1.10
+pulp>=2.7
+streamlit>=1.30
+matplotlib>=3.7
+# optional / production
+# lightgbm>=4.0       # drop-in for HistGradientBoosting
+# xgboost>=2.0
+# shap>=0.44          # model explanations
+# anthropic>=0.40     # enables the live GenAI lead copilot
