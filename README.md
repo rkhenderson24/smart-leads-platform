@@ -32,7 +32,7 @@ streamlit run app/streamlit_app.py # interactive command center
 
 <div align="center">
 
-![Architecture](docs/architecture.png)
+![Architecture](architecture.png)
 
 </div>
 
