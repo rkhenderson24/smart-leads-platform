@@ -1,0 +1,52 @@
+{
+  "runtime_sec": 22.1,
+  "n_customers": 40000,
+  "mortgage_mix": {
+    "citizens": 15923,
+    "none": 15171,
+    "competitor": 8906
+  },
+  "n_leads": 40000,
+  "leads_by_type": {
+    "Cross-sell / deepen": 11669,
+    "Acquisition \u2014 competitor payoff": 8906,
+    "Refi / HELOC": 8037,
+    "Portfolio review": 6563,
+    "Acquisition \u2014 purchase intent": 3502,
+    "Retention \u2014 at-risk relationship": 1323
+  },
+  "total_value_at_stake_m": 56.6,
+  "propensity": {
+    "auc": 0.6557,
+    "pr_auc": 0.2135,
+    "n_train": 10428,
+    "positives": 1822
+  },
+  "uplift_top_bucket": 0.2787,
+  "attrition": {
+    "auc": 0.7127,
+    "base_attrition": 0.0991,
+    "n_holders": 10319
+  },
+  "assignment": {
+    "leads_assigned": 1500,
+    "officers_engaged": 39,
+    "expected_production": 4045191,
+    "avg_capacity_util": 0.944
+  },
+  "channel_mix": {
+    "retail_leads": 1313,
+    "virtual_leads": 1297,
+    "retail_conv": 0.0362,
+    "virtual_conv": 0.0306,
+    "expected_funded": 87.3,
+    "production": 829423
+  },
+  "fair_lending": {
+    "min_air": 0.942,
+    "passes_80_rule": true,
+    "proxy_leakage_auc": 0.588
+  },
+  "data_quality_passed": true,
+  "max_psi": 0.0024
+}

@@ -1,0 +1,5 @@
+segment,customers,avg_income,avg_deposit,avg_products,pct_citizens_mtg,pct_competitor_mtg,avg_refi_bps,avg_equity,avg_rel_value,persona,recommended_play
+3,2303,89048.81,26260.83,2.82,1.0,0.0,148.5,0.27,2331.19,At-Risk Refi (retain),Proactive in-house refi (retention)
+1,9595,89402.78,27174.66,2.8,1.0,0.0,8.48,0.33,2236.99,Stable Relationship Core,Pre-approval nurture / annual review
+2,5559,91220.83,26944.47,2.82,0.29,0.27,3.09,0.07,1447.15,Stable Relationship Core,Pre-approval nurture / annual review
+0,22543,88577.6,26432.2,2.81,0.11,0.33,0.88,0.01,1190.69,Stable Relationship Core,Pre-approval nurture / annual review
