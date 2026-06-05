@@ -39,6 +39,17 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+from src.pipeline import run as run_pipeline
+
+@st.cache_resource(show_spinner=False)
+def ensure_artifacts():
+    if not C.LEADS.exists():
+        with st.spinner("First-time setup: generating data and training models (~30s)…"):
+            run_pipeline(verbose=False)
+    return True
+
+ensure_artifacts()
+
 
 @st.cache_data
 def load():
